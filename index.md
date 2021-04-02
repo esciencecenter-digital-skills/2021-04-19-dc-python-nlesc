@@ -394,10 +394,9 @@ to include the relevant installation instrucctions.
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
 
-{% include install_instructions/openrefine.html %}
 {% include install_instructions/python.html %}
 
-<h3>Other installations</h3>
+<h3>Other software and data</h3>
 
 {% comment %}
 These are the installation instructions for the tools used
