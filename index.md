@@ -238,6 +238,11 @@ Display the contact email address set in the configuration file.
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
+<p id="roles">
+  <strong>Register:</strong>
+  You can register via  <a href="https://3zpb11r.momice.events/page/854828">this link</a>.
+</p>
+
 {% comment %}
 WHO CAN ATTEND?
 
