@@ -399,8 +399,9 @@ to include the relevant installation instrucctions.
 
 <h3>Data</h3>
 
-You can download all of the data used in this workshop by clicking
-[this download link](https://ndownloader.figshare.com/articles/1314459/versions/9). The file is 38.4 MB.
+There are two zip-files with data that you need to download for this workshop:
+- [Data for the Spreadsheets and OpenRefine lessons](https://ndownloader.figshare.com/articles/1314459/versions/9). 
+- [Data for the Python lesson](https://datacarpentry.org/python-ecology-lesson/data/portal-teachingdb-master.zip)
 
 Clicking the download link will automatically download all of the files to your default download directory as a single compressed
 (`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder
