@@ -371,7 +371,10 @@ please preview your site before committing, and make sure to run
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
-  Data Carpentry
+  
+
+
+ Carpentry
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
@@ -399,19 +402,28 @@ to include the relevant installation instrucctions.
 {% include install_instructions/videoconferencing.html %}
 {% endif %}
 
+<h3>Data</h3>
+
+You can download all of the data used in this workshop by clicking
+[this download link](https://ndownloader.figshare.com/articles/1314459/versions/9). The file is 38.4 MB.
+
+Clicking the download link will automatically download all of the files to your default download directory as a single compressed
+(`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder
+application).
+
+For a full description of the data used in this workshop see [this page](https://datacarpentry.org/ecology-workshop/data/index.html).
+
+<h3>Spreadsheet program</h3>
+
+* To interact with spreadsheets, we can use LibreOffice, Microsoft Excel, Gnumeric, OpenOffice.org, or other programs. 
+Commands may differ a bit between programs, but the general ideas for thinking about spreadsheets are the same. For this workshop, 
+we recommend using either Microsoft Excel (paid software) or LibreOffice (free and open source). Other spreadsheet programs may
+not have all of the features we will be exploring in this workshop.
+
+* To install LibreOffice, go to their [download page](https://www.libreoffice.org/download/download/). The website should
+automatically select the correct option for your operating system. Click the "Download" button. You will go to a page that asks about a
+donation, but you don’t need to make one. Your download should begin automatically. Once the installer is downloaded, double click on it (you may need to open your Downloads folder) and LibreOffice should install.
+
 {% include install_instructions/python.html %}
 
-<h3>Other software and data</h3>
 
-{% comment %}
-These are the installation instructions for the tools used
-during the workshop.
-{% endcomment %}
-
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% endif %}
